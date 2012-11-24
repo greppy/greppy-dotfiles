@@ -1,0 +1,8 @@
+# shell aliases
+
+alias ls='ls --color=auto -CF'
+alias t='todo.sh'
+alias gtd='t ls;rem -m -w${COLUMNS} -c+2'
+alias pacman=pacman-color
+alias xr='xrdb -load ~/.Xresources'
+alias mutt='TERM=screen-256color mutt'
